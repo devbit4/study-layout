@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+ul, ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+.wrap{
+    border: 10px solid black;
+    width: 800px;
+}
+
+.wrap::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.wrap .left{
+    width: 200px; 
+    float: left;
+}
+
+.wrap .left .box1 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+.wrap .left .box2{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+
+
+.wrap .center{
+    width: 400px;
+    float: left;
+    height: 400px;
+    background-color: red;
+}
+
+.wrap .center .box4 {
+    width: 400px;
+    height: 400px;
+    background-color: green;
+}
+
+
+
+.wrap .right{
+    width: 200px;
+    float: left;
+}
+
+
+.wrap .right .box1 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+.wrap .right .box2{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
