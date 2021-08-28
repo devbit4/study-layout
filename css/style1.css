@@ -1,0 +1,197 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #47ced831;
+}
+
+section.wrap {
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 40px auto;
+    padding: 20px 10px;
+    box-shadow: 20px 20px 10px lightgray;
+    border: 0.5px solid #d3d3d38e;
+    
+}
+
+nav.menu{
+    border: 0.5px solid #d3d3d38e;
+    border-radius: 10px;
+    width: 350px;
+    margin: 10px auto; 
+   
+}
+
+nav.menu::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.fa-bars{
+    font-size: 20px;
+    color: gray;
+    margin-left: 10px;
+    float: left;
+    padding: 10px;
+}
+.fa-bars:hover{
+    color:black;
+    font-size: 24px;
+}
+.fa-sticky-note{
+    font-size: 20px;
+    color: gray;
+    margin-right: 10px;
+    float: right;
+    padding: 10px;
+}
+
+.fa-sticky-note:hover{
+    color:black;
+    font-size: 24px;
+}
+
+
+article.profile{
+    border: 0.5px solid #d3d3d38e;
+    border-radius: 10px;
+    width: 350px;
+    margin: 10px auto; 
+    text-align: center; 
+    font-family: 'Roboto', sans-serif; 
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 10px lightgray;
+}
+
+
+h3{
+
+    font-weight: 200;
+    color: lightgray;
+    font-size: 16px;
+}
+
+.btn{
+    width: 200px;
+    margin: 30px auto;
+    display: block;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 14px;
+    background: linear-gradient(to right, #47ced831, #47ced8);
+    text-shadow: 0px 0px 10px white;
+    box-shadow: 10px 10px 10px lightgray;
+}
+
+.btn:hover{
+    background-color: #47ced8;
+    font-size: 16px;
+}
+
+
+ul.contact{
+    border-radius: 10px;
+    width: 350px;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    text-decoration: none;
+    color: gray;
+    letter-spacing: 0.8px;
+}
+
+
+ul li:nth-of-type(1) {
+    border-bottom: 0.5px solid #d3d3d38e;
+  }
+
+.fab {
+    display: inline-block;
+    margin: 5px 50px 5px 0px;
+    font-size: 20px;
+}
+
+span{
+    width: 150px;
+    display: inline-block;
+    margin: 5px 0px;
+}
+
+nav.others{
+    border: 0.5px solid #d3d3d38e;
+    border-radius: 10px;
+    width: 350px;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 0px;
+}
+
+.others a{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50%; 
+    margin: 10px 15px;
+    box-shadow: 10px 10px 30px lightgray;
+
+}
+
+
+.blue{
+    background-color: #47ced8;
+}
+
+.green{
+    background-color: #abdbab77;
+}
+
+.pink {
+    background-color: #ffc0cb75;
+}
+
+.purple {
+    background-color: #dfa9df75;
+}
+
+.blue:hover{
+    background-color: #47ced8;
+}
+
+.green:hover{
+    background-color: #abdbab;
+}
+
+.pink:hover {
+    background-color: #ffc0cb;
+}
+
+.purple:hover {
+    background-color: #dfa9df75;
+}

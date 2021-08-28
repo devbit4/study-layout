@@ -11,20 +11,16 @@ a {
     text-decoration: none;
 }
 
-.wrap {
-    border: 10px solid black;
-    width: 400px;
-    text-align: center;
-
+a {
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    display: block;
 }
 
 
-a{  
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: yellow;
-    padding: 20px;
-    margin: 10px;
+span {
+    width: 40px;
+    height: 40px;
+    background-color: red;
 }
