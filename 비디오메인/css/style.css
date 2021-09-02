@@ -1,0 +1,108 @@
+@charset 'utf-8'; 
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Fredericka+the+Great&display=swap');
+*{
+    margin:0; 
+    padding:0; 
+}
+ul,ol,li{
+    list-style:none; 
+}
+a{
+    text-decoration:none; 
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    border-bottom: 1px solid gray;
+    position: absolute;
+    z-index:1;
+
+}
+
+header h1{
+    margin-left: 6vw;
+    color: white;
+    position: absolute;
+    top: 50%;
+    font-size: 24px;
+    transform: translateY(-50%);   
+}
+
+header ul.gnb{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header ul.gnb li {
+    float:left;
+    margin-left: 20px;
+    
+}
+
+header ul li a{
+    color: white;
+}
+
+
+header ul.sns{
+    position: absolute;
+    right:0;
+    top:50%;
+    transform: translateY(-50%);
+    margin-right: 6vw;
+}
+
+header ul.sns li{
+    float:left;
+    margin-right: 20px;
+}
+header ul li i{
+    color: white;
+    font-size: 20px;
+}
+
+figure{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index:0;
+}
+
+figure video{
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    object-fit: cover;
+}
+
+figure article{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    margin-left: 6vw;
+    margin-top:-100px;
+}
+
+figure article p{
+    font-size:80px;
+    margin-bottom: 30px;
+}
+
+figure article ul li{
+    float: left;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+footer {
+    position:absolute;
+    color: white;
+    left: 50%;
+    bottom: 5vh;
+    transform: translateX(-50%);
+    letter-spacing: 2px;
+}
